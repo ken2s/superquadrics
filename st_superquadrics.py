@@ -11,6 +11,7 @@ st.markdown('where $n_1$ and $n_2$ are shape parameters, and $a$, $b$, and $c$ a
 st.subheader('Formula python code')
 with st.echo():
     import numpy as np
+    @st.cache
     def superquadrics(a,b,c,n1,n2,x,y,z):
         values = np.power(np.power(np.abs(x/a),n2) \
                         + np.power(np.abs(y/b),n2),n1/n2) \
