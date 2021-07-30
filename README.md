@@ -17,6 +17,7 @@ where *n<sub>1</sub>* and *n<sub>2</sub>* are shape parameters, and *a*, *b*, an
 ### Formula python code
 ```python
 import numpy as np
+@st.cache
 def superquadrics(a,b,c,n1,n2,x,y,z):
     values = np.power(np.power(np.abs(x/a),n2) \
                     + np.power(np.abs(y/b),n2),n1/n2) \
