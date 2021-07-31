@@ -17,7 +17,7 @@ with st.echo():
                         + np.power(np.abs(y/b),n2),n1/n2) \
                + np.power(np.abs(z/c),n1)
         return values
-X, Y, Z = np.mgrid[-1:1:50j, -1:1:50j, -2:2:100j]
+X, Y, Z = np.mgrid[-1:1:20j, -1:1:20j, -2:2:40j]
 a  = 1.
 b  = 1.
 c  = st.slider('c (a=b=1)', .2, 2., 1., .2)
