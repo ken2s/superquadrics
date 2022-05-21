@@ -3,10 +3,10 @@
 ### Formulas
 
 $$
-   \left|\frac{x}{a}\right|^s 
- + \left|\frac{y}{b}\right|^t 
- + \left|\frac{z}{c}\right|^u 
- = 1
+    \left|\frac{x}{a}\right|^s 
+  + \left|\frac{y}{b}\right|^t 
+  + \left|\frac{z}{c}\right|^u 
+  = 1
 $$
 
 <!-- <img src="https://latex.codecogs.com/gif.latex?\large&space;{\color{Gray}&space;\begin{align*}&space;\left|\frac{x}{a}\right|^s&space;&plus;&space;\left|\frac{y}{b}\right|^t&space;&plus;&space;\left|\frac{z}{c}\right|^u&space;=&space;1&space;\end{align*}}" title="\large {\color{Gray} \begin{align*} \left|\frac{x}{a}\right|^s + \left|\frac{y}{b}\right|^t + \left|\frac{z}{c}\right|^u = 1 \end{align*}}" /> -->
